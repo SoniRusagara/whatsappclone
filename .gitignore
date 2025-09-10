@@ -1,0 +1,61 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Keep Maven Wrapper (commit these)
+!.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# ===== IDEs =====
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# STS / Eclipse (if ever used)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===== OS cruft =====
+.DS_Store
+Thumbs.db
+
+# ===== Frontend (adjust if name differs) =====
+whatsapp-clone-ui/node_modules/
+whatsapp-clone-ui/.next/
+whatsapp-clone-ui/dist/
+whatsapp-clone-ui/build/
+whatsapp-clone-ui/.vite/
+whatsapp-clone-ui/.parcel-cache/
+whatsapp-clone-ui/.expo/
+
+# package manager caches/locks (optional to ignore; commit one lockfile if you use it)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===== Env / secrets =====
+.env
+.env.*
