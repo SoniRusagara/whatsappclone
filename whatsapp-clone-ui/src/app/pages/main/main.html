@@ -1,1 +1,20 @@
-<p>main works!</p>
+<div class="main">
+  <div class="background-green"></div>
+
+  <div class="main-container d-flex">
+    <div class="d-flex flex-column justify-content-between align-items-center p-3 gray-bg">
+      <div>
+        <i class="fa-solid fa-message cursor pointer"></i>
+      </div>
+      <div class="d-flex flex-column align-items-center gap-2">
+        <i class="fa-solid fa-user cursor-pointer" (click)="userProfile()"></i>
+        <i class="fa-solid fa-door-open cursor-pointer" (click)="logout()"></i>
+      </div>
+      <div class="d-flex w-100">
+        <div class="col-3 overflow-x-scroll">
+          <app-chat-list
+            [chats]="chats"
+            (chatSelected)="chatSelected($event)"
+          ></app-chat-list>
+        </div>
+</div>
