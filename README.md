@@ -150,7 +150,7 @@ source <(ng completion script)
 
 ## License
 
-MIT (or your preference)
+MIT 
 
 ---
 
